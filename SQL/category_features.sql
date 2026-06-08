@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: hermionezhou
-"""
-
 CREATE TABLE category_features AS
 SELECT
     s.sample_id,

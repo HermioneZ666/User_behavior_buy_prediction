@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-@author: hermionezhou
-"""
-
 CREATE TABLE time_features AS
 SELECT
     sample_id,
