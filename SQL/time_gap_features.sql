@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS time_gap_features;
 CREATE TABLE time_gap_features AS
 SELECT
     s.sample_id,

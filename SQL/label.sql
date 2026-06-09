@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS label_table;
 CREATE TABLE label_table AS
 SELECT
     s.sample_id,

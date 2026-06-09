@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS time_features;
 CREATE TABLE time_features AS
 SELECT
     sample_id,

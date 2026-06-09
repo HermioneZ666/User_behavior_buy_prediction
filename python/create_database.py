@@ -77,17 +77,17 @@ print("Database Created Successfully")
 # %%
 # 执行所有sql脚本
 sql_files = [
-    "sql/user_features.sql",
-    "sql/item_features.sql",
-    "sql/category_features.sql",
-    "sql/user_item_features.sql",
-    "sql/user_category_features.sql",
-    "sql/time_features.sql",
-    "sql/user_time_features.sql",
-    "sql/item_time_features.sql",
-    "sql/category_time_features.sql",
-    "sql/time_gap_features.sql",
-    "sql/label.sql"
+    "../sql/user_features.sql",
+    "../sql/item_features.sql",
+    "../sql/category_features.sql",
+    "../sql/user_item_features.sql",
+    "../sql/user_category_features.sql",
+    "../sql/time_features.sql",
+    "../sql/user_time_features.sql",
+    "../sql/item_time_features.sql",
+    "../sql/category_time_features.sql",
+    "../sql/time_gap_features.sql",
+    "../sql/label.sql"
 ]
 
 for file in sql_files:
