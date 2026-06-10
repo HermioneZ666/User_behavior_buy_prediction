@@ -87,7 +87,8 @@ sql_files = [
     "../sql/item_time_features.sql",
     "../sql/category_time_features.sql",
     "../sql/time_gap_features.sql",
-    "../sql/label.sql"
+    "../sql/label.sql",
+    "../sql/merge_features.sql"
 ]
 
 for file in sql_files:
