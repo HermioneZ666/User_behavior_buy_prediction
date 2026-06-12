@@ -1,0 +1,13 @@
+drop_feature
+user_total_behavior_7d
+item_total_behavior_7d
+item_unique_user_7d
+cate_fav_cnt_7d
+cate_cart_cnt_7d
+cate_total_behavior_7d
+ui_total_behavior_7d
+ui_has_fav_7d
+uc_total_behavior_7d
+cate_night_behavior_cnt_7d
+cate_weekend_behavior_cnt_7d
+cate_night_buy_cnt_7d
