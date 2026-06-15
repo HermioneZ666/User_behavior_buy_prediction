@@ -133,6 +133,3 @@ def correlation_analysis():
         drop_features=drop_features,
         save_prefix="corr_selection"
     )
-
-if __name__ == "__main__":
-    train_final_model()

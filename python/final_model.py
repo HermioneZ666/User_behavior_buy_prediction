@@ -146,6 +146,16 @@ def train_final_model(
     # final test evaluation
     test_prob = final_xgb_model.predict_proba(X_test)[:, 1]
     
+    prediction_df = pd.DataFrame({
+    "label": y_test,
+    "prob": test_prob
+    })
+
+    prediction_df.to_csv(
+        "../data/final_prediction.csv",
+        index=False
+    )
+    
     evaluate_model(
         "Final XGBoost - Test",
         y_test,
