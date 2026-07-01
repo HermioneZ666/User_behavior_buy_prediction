@@ -76,6 +76,8 @@ def train_final_model(
     X_train_valid = train_valid_df.drop(columns=drop_cols)
     y_train_valid = train_valid_df["label"]
     
+    print(X_train_valid.shape)
+    
     X_test = test_df.drop(columns=drop_cols)
     y_test = test_df["label"]
     
@@ -222,3 +224,4 @@ def train_final_model(
 
 if __name__ == "__main__":
     train_final_model()
+    
